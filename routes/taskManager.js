@@ -95,6 +95,7 @@ taskRoutes.put("/:id", (req, res) => {
     else {
         res.status(400).json(validator.validateUpdateTaskInfo(taskDetails));
     }
+
     
 });
 
